@@ -1,0 +1,82 @@
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo {
+  width: 90px;
+  margin-left: 47%;
+  margin-top: 3rem;
+}
+
+.soon {
+  font-weight: 700;
+  text-align: center;
+  max-width: 100%;
+}
+
+span {
+  color: #969696;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30%;
+}
+
+.dashboard {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5rem;
+}
+
+#social {
+  text-align: center;
+  margin-left: -25%;
+  color: #4f7df3;
+}
+
+#social i {
+  text-align: center;
+  border: 1px solid #c2d3ff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 17px;
+  line-height: 1.6;
+}
+
+h4 {
+  text-align: center;
+  color: #969696;
+  font-weight: 300;
+  font-size: .75rem;
+  margin-top: 3rem;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+footer p {
+  color: #4f7df3;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:link {
+  color: #4f7df3;
+}
+/*# sourceMappingURL=style.css.map */

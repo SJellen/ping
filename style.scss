@@ -1,0 +1,90 @@
+
+
+$color-blue: hsl(223, 87%, 63%);
+$pale-blue: hsl(223, 100%, 88%);
+$light-red: hsl(354, 100%, 66%);
+$gray: hsl(0, 0%, 59%);
+$dark-blue: hsl(209, 33%, 12%);
+
+
+body {
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+.logo {
+  width: 90px;
+  margin-left: 47%;
+  margin-top: 3rem;
+}
+
+.soon {
+    font-weight: 700;
+    text-align: center;
+    max-width: 100%;
+}
+
+span {
+    color: $gray;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-left: 30%;
+}
+
+.dashboard {
+    width: 50%;
+    margin-left: 25%; 
+    margin-bottom: 5rem;
+}
+
+#social {
+   text-align: center;
+   margin-left: -25%;
+   color: $color-blue;
+}
+
+
+#social i {
+    text-align: center;
+    border: 1px solid $pale-blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 17px;
+    line-height: 1.6;
+    
+}
+
+h4 {
+    text-align: center;
+    color: $gray;
+    font-weight: 300;
+    font-size: .75rem;
+    margin-top: 3rem;
+}
+
+footer {
+    margin-top: 5rem;
+    p {
+        color: $color-blue;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:link {
+        color: $color-blue;
+    }
+}
+   
