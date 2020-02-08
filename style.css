@@ -25,24 +25,100 @@ h3 {
   font-size: 1.5rem;
   font-weight: 300;
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 30%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 4rem;
+}
+
+form .email {
+  height: 54px;
+  width: 420px;
+  border-radius: 25px;
+  border: .5px solid silver;
+}
+
+form input[type=text]::-webkit-input-placeholder {
+  font-size: .75rem;
+  padding-left: 2rem;
+}
+
+form input[type=text]:-ms-input-placeholder {
+  font-size: .75rem;
+  padding-left: 2rem;
+}
+
+form input[type=text]::-ms-input-placeholder {
+  font-size: .75rem;
+  padding-left: 2rem;
+}
+
+form input[type=text]::placeholder {
+  font-size: .75rem;
+  padding-left: 2rem;
+}
+
+form .errorMessage {
+  color: #ff5263;
+  font-size: .75rem;
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+form .successMessage {
+  color: green;
+  font-size: .75rem;
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+form button {
+  color: white;
+  background-color: #4f7df3;
+  width: 150px;
+  height: 54px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #c2d3ff;
+  -webkit-transition: ease-in 500ms;
+  transition: ease-in 500ms;
 }
 
 .dashboard {
   width: 50%;
-  margin-left: 25%;
-  margin-bottom: 5rem;
+  min-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 #social {
-  text-align: center;
-  margin-left: -25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #4f7df3;
 }
 
@@ -56,6 +132,14 @@ form {
   line-height: 1.6;
 }
 
+#social i:hover {
+  background-color: #4f7df3;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: ease-in 500ms;
+  transition: ease-in 500ms;
+}
+
 h4 {
   text-align: center;
   color: #969696;
@@ -65,7 +149,7 @@ h4 {
 }
 
 footer {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 footer p {

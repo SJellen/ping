@@ -36,22 +36,76 @@ h3 {
     font-size: 1.5rem;
     font-weight: 300;
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 form {
     display: flex;
-    margin-left: 30%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 4rem;
+    .email {
+       height: 54px;
+       width: 420px;
+       border-radius: 25px;
+       border: .5px solid silver;
+    }
+    input[type=text]::placeholder {
+        font-size: .75rem;
+        padding-left: 2rem;
+        
+    }
+
+.errorMessage {
+    color: $light-red;
+    font-size: .75rem;
+     margin-left: 2rem;
+     font-style: italic;
+ }
+ 
+ .successMessage {
+     color: green;
+     font-size: .75rem;
+     margin-left: 2rem;
+     font-style: italic;
+ }
+
+ button {
+     color: white;
+     background-color: $color-blue;
+     width: 150px;
+     height: 54px;
+     border-radius: 25px;
+     border: none;
+     font-size: 1rem;
+     margin-left: 1rem;
+ }
+
+ button:hover {
+    cursor: pointer;
+    background-color: $pale-blue;
+    transition: ease-in 500ms;
+ }
+ 
 }
+
+
 
 .dashboard {
     width: 50%;
-    margin-left: 25%; 
-    margin-bottom: 5rem;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    
+    
 }
 
 #social {
-   text-align: center;
-   margin-left: -25%;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
    color: $color-blue;
 }
 
@@ -67,6 +121,13 @@ form {
     
 }
 
+#social i:hover {
+    background-color: $color-blue;
+    color: white;
+    cursor: pointer;
+    transition: ease-in 500ms;
+}
+
 h4 {
     text-align: center;
     color: $gray;
@@ -76,7 +137,7 @@ h4 {
 }
 
 footer {
-    margin-top: 5rem;
+    margin-top: 10rem;
     p {
         color: $color-blue;
     }
