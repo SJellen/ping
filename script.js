@@ -2,6 +2,7 @@ const input = document.querySelector('.email');
 const messageEle = document.querySelector('.message');
 const button = document.querySelector('.submit');
 
+
 const addEmail = "Please enter an email address";
 const fixEmail = "Please provide a valid email address";
 const thanksEmail = "Thanks for your interest"
@@ -14,6 +15,7 @@ function validateEntry(e) {
     if(!input.value){
       message = addEmail;
       errorMessage(message);
+      
     }else if (!re.test(input.value)){
       message = fixEmail;
       input.value = "";
@@ -28,16 +30,20 @@ function validateEntry(e) {
   function errorMessage(){
       messageEle.className = " message errorMessage";
       messageEle.innerText = message;
+      document.querySelector(".email").style.borderColor = "#f96262";
+      document.querySelector(".email").style.borderWidth = "2px";
   event.preventDefault();
   
    }
   function successMessage(){
       messageEle.className = " message successMessage";
       messageEle.innerText = message;
-
+      document.querySelector(".email").style.borderColor = "green";
+      document.querySelector(".email").style.borderWidth = "2px";
     event.preventDefault();
   }
    function clearMessage(){
      input.value = "";
      input.placeholder= "";
+     document.querySelector(".email").style.borderColor = "";
    }
