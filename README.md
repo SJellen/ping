@@ -1,13 +1,11 @@
 <h1 align="center">Welcome to Ping 👋</h1>
 
 ![screenshot](https://github.com/SJellen/ping/blob/master/ScreenShot.png)
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
-</p>
+
 
 > A FrontEnd Mentor challenge: Ping
 
-### ✨ [Demo](https://enchanting-planes.surge.sh)
+
 
 ## Author
 
